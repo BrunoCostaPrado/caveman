@@ -1,0 +1,19 @@
+{
+  "name": "caveman-mcp",
+  "version": "0.1.0",
+  "description": "MCP server providing caveman compression as a callable tool. Compress text using caveman rules — drops articles, filler, hedging while preserving code, URLs, paths.",
+  "license": "MIT",
+  "homepage": "https://github.com/JuliusBrussee/caveman",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliusBrussee/caveman.git",
+    "directory": "src/mcp-servers/caveman"
+  },
+  "author": "Julius Brussee",
+  "keywords": ["mcp", "model-context-protocol", "caveman", "compress"],
+  "main": "index.js",
+  "bin": {
+    "caveman-mcp": "index.js"
+  },
+  "files": ["index.js"]
+}
